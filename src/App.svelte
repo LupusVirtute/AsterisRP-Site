@@ -5,6 +5,17 @@
   import Squad from './lib/Squad.svelte';
 </script>
 <svelte:head>
+  <meta name="author" content="LupusVirtute"/>
+  <meta name="description" content="AsterisRP server Page"/>
+  <meta name="keywords" content="FiveM, Serwer, Serwer FiveM"/>
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <meta name="twitter:card" content="Najlepszy polski serwer FiveM do roleplayu"/>
+  <meta property="og:title" content="AsterisRP.pl"/>
+  <meta property="og:type" content=""/>
+  <meta property="og:url" content="AsterisRP.pl"/>
+  <meta property="og:locale" content="pl_PL"/>
+  <meta property="og:description" content="Asteris RP najlepszy serwer RP FiveM jaki znajdziesz"/>
+  
   <script src="https://kit.fontawesome.com/c0ff61a66a.js" crossorigin="anonymous"></script>
   <link rel="preconnect" href="https://fonts.gstatic.com">
   <link href="https://fonts.googleapis.com/css2?family=Inconsolata:wght@300&display=swap" rel="stylesheet">
