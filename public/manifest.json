@@ -1,5 +1,6 @@
 {
-    "name": "AsterisRP",
+    "name": "Asteris RolePlay",
+    "short_name": "AsterisRP",
     "start_url": ".",
     "icons": [
         {
@@ -16,7 +17,7 @@
         }
     ],
     "theme_color": "#EB1C35",
-    "background_color": "#ffffff",
-    "display": "browser",
+    "background_color": "#D557D4",
+    "display": "minimal-ui",
     "orientation": "portrait"
 }
