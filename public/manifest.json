@@ -1,7 +1,8 @@
 {
     "name": "Asteris RolePlay",
     "short_name": "AsterisRP",
-    "start_url": "/",
+    "dir": "auto",
+    "start_url": "https://asteris-rp.vercel.app/",
     "icons": [
         {
             "src": "favicon.png",
@@ -18,6 +19,6 @@
     ],
     "theme_color": "#EB1C35",
     "background_color": "#D557D4",
-    "display": "minimal-ui",
+    "display": "standalone",
     "orientation": "portrait"
 }
