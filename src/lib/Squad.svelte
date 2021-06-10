@@ -1,7 +1,7 @@
 <script lang="ts">
     import wave from '../assets/wave.svg';
     import { members } from '../configs/memberConfig';
-import Member from './Member.svelte';
+    import Member from './Member.svelte';
 </script>
 <style lang="sass">
 @import '../themes/Squad.sass'

@@ -3,6 +3,7 @@
   import MainLogo from './lib/MainLogo.svelte';
   import Navbar from './lib/Navbar.svelte';
   import Squad from './lib/Squad.svelte';
+  import Footer from './lib/Footer.svelte';
 </script>
 <svelte:head>
   <script src="https://kit.fontawesome.com/c0ff61a66a.js" crossorigin="anonymous"></script>
@@ -14,6 +15,7 @@
   <MainLogo/>
   <About/>
   <Squad/>
+  <Footer/>
 </main>
 <style lang="sass" global>
 body,html
@@ -22,6 +24,7 @@ body,html
   font-size: 1.5vw
   -ms-overflow-style: none
   scrollbar-width: none
+  background-color: #0b0b0b
 body::-webkit-scrollbar
   display: none
 @import url('https://fonts.googleapis.com/css2?family=Iceberg&display=swap')
