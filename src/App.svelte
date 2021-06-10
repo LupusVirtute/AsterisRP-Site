@@ -3,6 +3,7 @@
   import MainLogo from './lib/MainLogo.svelte';
   import Navbar from './lib/Navbar.svelte';
   import Squad from './lib/Squad.svelte';
+  import logo from './assets/logo.png'
 </script>
 <svelte:head>
   <meta name="author" content="LupusVirtute"/>
@@ -15,7 +16,8 @@
   <meta property="og:url" content="AsterisRP.pl"/>
   <meta property="og:locale" content="pl_PL"/>
   <meta property="og:description" content="Asteris RP najlepszy serwer RP FiveM jaki znajdziesz"/>
-  
+  <meta property="og:image" content="{logo}" />
+
   <script src="https://kit.fontawesome.com/c0ff61a66a.js" crossorigin="anonymous"></script>
   <link rel="preconnect" href="https://fonts.gstatic.com">
   <link href="https://fonts.googleapis.com/css2?family=Inconsolata:wght@300&display=swap" rel="stylesheet">
