@@ -3,8 +3,6 @@
   import MainLogo from './lib/MainLogo.svelte';
   import Navbar from './lib/Navbar.svelte';
   import Squad from './lib/Squad.svelte';
-  import logo from './assets/logo.png?url=raw'
-  let metaDesc = "Asteris RP najlepszy serwer RP FiveM jaki znajdziesz";
 </script>
 <svelte:head>
   <script src="https://kit.fontawesome.com/c0ff61a66a.js" crossorigin="anonymous"></script>
@@ -21,7 +19,7 @@
 body,html
   margin: 0
   padding: 0
-  font-size: 3vh
+  font-size: 1.5vw
   -ms-overflow-style: none
   scrollbar-width: none
 body::-webkit-scrollbar
