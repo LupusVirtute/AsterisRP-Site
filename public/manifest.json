@@ -7,6 +7,12 @@
             "sizes": "250x251",
             "type": "image/png",
             "purpose": "maskable any"
+        },
+        {
+            "src": "splash_screen.png",
+            "sizes": "512x512",
+            "type": "image/png",
+            "purpose": "maskable any"
         }
     ],
     "theme_color": "#EB1C35",
