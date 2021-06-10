@@ -3,7 +3,7 @@
   import MainLogo from './lib/MainLogo.svelte';
   import Navbar from './lib/Navbar.svelte';
   import Squad from './lib/Squad.svelte';
-  import logo from './assets/logo.png'
+  import logo from './assets/logo.png?url=raw'
   let metaDesc = "Asteris RP najlepszy serwer RP FiveM jaki znajdziesz";
 </script>
 <svelte:head>
