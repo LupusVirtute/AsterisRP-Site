@@ -1,6 +1,6 @@
 {
     "name": "AsterisRP",
-    "start_url": "https://asteris-rp.vercel.app/",
+    "start_url": ".",
     "icons": [
         {
             "src": "favicon.png",
