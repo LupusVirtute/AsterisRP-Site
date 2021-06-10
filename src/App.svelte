@@ -4,6 +4,7 @@
   import Navbar from './lib/Navbar.svelte';
   import Squad from './lib/Squad.svelte';
   import logo from './assets/logo.png'
+  let metaDesc = "Asteris RP najlepszy serwer RP FiveM jaki znajdziesz";
 </script>
 <svelte:head>
   <meta name="author" content="LupusVirtute"/>
@@ -11,13 +12,14 @@
   <meta name="keywords" content="FiveM, Serwer, Serwer FiveM"/>
   <meta name="viewport" content="width=device-width, initial-scale=1.0" />
   <meta name="twitter:card" content="summary" />
-  <meta property='twitter:title' content="Asteris RP"/>
-  <meta property='twitter:image' content="{logo}"/>
+  <meta name='twitter:title' content="Asteris RP"/>
+  <meta name='twitter:description' content="{metaDesc}"/>
+  <meta name='twitter:image' content="{logo}"/>
   <meta property="og:title" content="AsterisRP.pl"/>
-  <meta property="og:type" content=""/>
+  <meta property="og:type" content="website"/>
   <meta property="og:url" content="AsterisRP.pl"/>
   <meta property="og:locale" content="pl_PL"/>
-  <meta property="og:description" content="Asteris RP najlepszy serwer RP FiveM jaki znajdziesz"/>
+  <meta property="og:description" content="{metaDesc}"/>
   <meta property="og:image" content="{logo}" />
   <meta property="og:image:alt" content="Asteris RP Server Logo"/>
   <meta property="og:image:type" content="image/png"/>
