@@ -17,4 +17,7 @@
             Discord AsterisRP
         </section>
     </a>
+    <section class="Author">
+        LupusVirtute for AsterisRP
+    </section>
 </div>

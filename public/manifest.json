@@ -1,0 +1,16 @@
+{
+    "name": "AsterisRP",
+    "start_url": "",
+    "icons": [
+        {
+            "src": "favicon.png",
+            "sizes": "250x251",
+            "type": "image/png",
+            "purpose": "maskable any"
+        }
+    ],
+    "theme_color": "#EB1C35",
+    "background_color": "#ffffff",
+    "display": "fullscreen",
+    "orientation": "portrait"
+}

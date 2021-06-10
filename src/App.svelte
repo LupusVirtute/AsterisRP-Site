@@ -9,6 +9,11 @@
   <script src="https://kit.fontawesome.com/c0ff61a66a.js" crossorigin="anonymous"></script>
   <link rel="preconnect" href="https://fonts.gstatic.com">
   <link href="https://fonts.googleapis.com/css2?family=Inconsolata:wght@300&display=swap" rel="stylesheet">
+  <script>
+    if('serviceWorker' in navigator){
+      navigator.serviceWorker.register('/sw.js');
+    }
+  </script>
 </svelte:head>
 <main>
   <Navbar/>
@@ -21,7 +26,7 @@
 body,html
   margin: 0
   padding: 0
-  font-size: 1.5vw
+  font-size: 3vw
   -ms-overflow-style: none
   scrollbar-width: none
   background-color: #0b0b0b
