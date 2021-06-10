@@ -6,14 +6,14 @@
   import Footer from './lib/Footer.svelte';
 </script>
 <svelte:head>
+  <script>
+    if ('serviceWorker' in navigator) {
+      navigator.serviceWorker.register('./sw.js');
+    }
+  </script>
   <script src="https://kit.fontawesome.com/c0ff61a66a.js" crossorigin="anonymous"></script>
   <link rel="preconnect" href="https://fonts.gstatic.com">
   <link href="https://fonts.googleapis.com/css2?family=Inconsolata:wght@300&display=swap" rel="stylesheet">
-  <script>
-    if('serviceWorker' in navigator){
-      navigator.serviceWorker.register('/sw.js');
-    }
-  </script>
 </svelte:head>
 <main>
   <Navbar/>
