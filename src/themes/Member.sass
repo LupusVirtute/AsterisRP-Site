@@ -1,0 +1,26 @@
+@import './values.sass'
+.member 
+    &:hover
+        transform: scale(1.2)
+    transition: all .5s
+    display: flex
+    justify-content: space-between
+    padding: .1rem 1rem
+    margin: 1rem auto
+    width: 22rem
+    background: #222
+    border-radius: 1rem
+    font-size: .6rem
+    box-shadow: $textBckg
+    .memberImage
+        transition: all 1s
+        &:hover
+            transform: translateX(-5rem) scale(2)
+        width: 5rem
+        height: 5rem
+        border-radius: 100%
+        border: 2px dashed $AsterisRed
+    article
+        text-align: left
+        padding: .5rem
+        width: 80%
