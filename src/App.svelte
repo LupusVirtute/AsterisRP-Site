@@ -10,7 +10,7 @@
   <meta name="description" content="AsterisRP server Page"/>
   <meta name="keywords" content="FiveM, Serwer, Serwer FiveM"/>
   <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-  <meta name="twitter:card" content="Najlepszy polski serwer FiveM do roleplayu"/>
+  <meta name="twitter:card" content="summary" />
   <meta property="og:title" content="AsterisRP.pl"/>
   <meta property="og:type" content=""/>
   <meta property="og:url" content="AsterisRP.pl"/>
