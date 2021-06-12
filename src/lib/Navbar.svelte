@@ -45,7 +45,7 @@ import NavbarElements from './NavbarElements.svelte';
     @import '../themes/Navbar.sass'
 </style>
 <nav id="navbar">
-    <button on:click="{changeButton}">
+    <button on:click="{changeButton}" name="Menu Button">
         <i class="fas fa-bars"></i>
     </button>
     {#if visible}
