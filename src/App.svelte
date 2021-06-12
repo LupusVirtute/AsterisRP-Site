@@ -26,7 +26,7 @@
 body,html
   margin: 0
   padding: 0
-  font-size: 3vw
+  font-size: calc(3vw + 12px)
   -ms-overflow-style: none
   scrollbar-width: none
   background-color: #0b0b0b

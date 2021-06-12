@@ -6,7 +6,7 @@
         },
         {
             icon: 'fab fa-discord',
-            link: 'https://discord.gg/gSN97uRPpw'
+            link: 'https://discord.gg/gSN97uRPpw',
         }
     ]
 </script>

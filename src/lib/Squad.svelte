@@ -10,6 +10,6 @@
     <img class="wave" src="{wave}" alt="fala" />
     <h2>Nasza Drużyna</h2>
     {#each members as member,i}
-        <Member number="{i}" about="{member.about}" memberImage="{member.image}"/>
+        <Member number="{i}" memberValue="{member}"/>
     {/each}
 </div>
