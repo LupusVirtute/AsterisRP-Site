@@ -9,7 +9,7 @@
 </style>
 <div class="member" style="margin-right: {value};width: 80vw">
     <div class="aboutContainer">
-        <h4>{memberValue.nick}</h4>
+        <h3>{memberValue.nick}</h3>
         <hr/>
         <article>
             {memberValue.about}
