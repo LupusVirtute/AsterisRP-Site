@@ -5,7 +5,7 @@
 @import "../themes/About.sass"
 </style>
 <img src="{Wave}" alt="wave"/>
-<section itemscope itemtype="https://schema.org/about">
+<section id="About" itemscope itemtype="https://schema.org/about">
     <h2>O nas</h2>
     <article>
         Lorem ipsum dolor sit amet consectetur adipisicing elit. Autem necessitatibus debitis numquam fugiat magnam ut quia dolor nemo iure. Voluptatum nam beatae accusantium perspiciatis, autem consectetur perferendis optio mollitia facilis.
