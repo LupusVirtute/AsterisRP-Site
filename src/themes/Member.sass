@@ -3,7 +3,8 @@
     &:hover
         transform: scale(1.2)
     transition: all .5s
-    display: flex
+    display: grid
+    grid-template-columns: 6fr 1fr
     justify-content: space-between
     padding: .1rem 1rem
     margin: 1rem auto
@@ -20,6 +21,7 @@
         width: 5rem
         height: 5rem
         border-radius: 100%
+        margin-left: 1.5rem
         border: 2px dashed $AsterisRed
     .aboutContainer
         text-align: left
@@ -30,9 +32,9 @@
             @include boxShadow($color: $AsterisRed,$blur: 5px)
             
             padding: 0
-            width: 15rem
+            width: 100%
         h3
             margin: 0
             padding: .4rem .5rem
         article
-            width: 80%
+            width: 100%
