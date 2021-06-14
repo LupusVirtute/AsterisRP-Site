@@ -136,7 +136,7 @@
     },
     "manualParticles": [],
     "motion": {
-      "disable": true,
+      "disable": false,
       "reduce": {
         "factor": 4,
         "value": true
